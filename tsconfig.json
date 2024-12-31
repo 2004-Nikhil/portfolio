@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/sections/about/index.jsx", "components/sections/achievements/achievement-card.jsx", "components/sections/achievements/index.jsx", "components/sections/contact/contact-form.jsx", "components/sections/contact/index.jsx", "components/sections/hero/p5-background.jsx", "components/sections/hero/index.jsx", "components/sections/projects/index.jsx", "components/sections/projects/project-card.jsx", "components/sections/projects/project-carousel.jsx", "components/sections/skills/index.jsx", "components/sections/skills/skill-card.jsx", "components/footer.jsx", "components/navbar.jsx", "components/scroll-provider.jsx", "components/theme-provider.jsx"],
+  "exclude": ["node_modules"]
+}
